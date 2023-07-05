@@ -8,7 +8,7 @@ import UseBreakpoint from "@shared/useBreakpoint";
 
 export default function Index() {
 
-  const { isSmallScreen, isMediumScreen,isLargeScreen } = UseBreakpoint()
+  const { isMediumScreen } = UseBreakpoint()
 
   return (
     <Grid container spacing={0} minHeight="100px">
