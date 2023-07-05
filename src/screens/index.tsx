@@ -18,7 +18,7 @@ const RouteLoader = () => (
 
 export default function Index() {
   const { isSmallScreen, isMediumScreen } = UseBreakpoint();
-  const { isLoading, data } = useGet({
+  const { data } = useGet({
     url: "products/"
   })
   console.log(data);
