@@ -1,9 +1,6 @@
 import { Box, Rating } from '@mui/material';
 import { Typography } from '@mui/material';
-import { Grid } from '@mui/material';
 import React from 'react';
-import Dog1 from "@media/images/products/dog1.png";
-import UseBreakpoint from '@shared/useBreakpoint';
 
 type Props = {
   title: string,
