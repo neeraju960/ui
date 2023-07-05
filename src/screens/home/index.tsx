@@ -2,7 +2,6 @@ import { Box } from "@mui/material";
 import PetCareService from '@screens/services/petCareServices/index';
 import Banner from "./banner";
 import Stats from "./stats";
-import Offers from "../products/offers/index";
 import Ratings from "@screens/products/ratings/index";
 import Subscribe from "../products/offers/subscribe";
 import Posts from "@screens/posts/index";
@@ -10,7 +9,6 @@ import Dog1 from "@media/images/crop-groomer-trimming.png";
 import Dog2 from "@media/images/crop-groomer-trimming-1.png";
 import Dog3 from "@media/images/crop-groomer-trimming-3.png";
 import ContactCardList from "@screens/socials/contactCardList";
-import Input from "@components/input";
 
 const latestPosts = [
   { tag: 'training', image: Dog1, createdBy: 'by Corabelle Durrad', createdAt: '02.01.2022', title: '5 Crazy Things Dogs Do When Left Alone At Home', description: 'Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.' },
@@ -24,18 +22,15 @@ export default function Index() {
     <Box
       sx={{
         height: '100%',
-        // bgcolor: 'red'
       }}
     >
       <Banner />
       <Stats />
       <PetCareService />
-      {/* <Offers /> */}
       <Ratings />
       <Subscribe />
       <Posts posts={latestPosts} title="Latest Posts" subTitle="our blogs"/>
       <ContactCardList />
-      <Input />
     </Box>
   )
 }
