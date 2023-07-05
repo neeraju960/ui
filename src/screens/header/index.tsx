@@ -8,7 +8,7 @@ import { useCallback, useEffect, useState } from "react";
 import AppDrawer from "./appDrawer";
 import HorizontalLinks from "./horizontalLinks";
 
-const NavigationFromTop = styled(Box)(({ theme }) => ({
+const NavigationFromTop = styled(Box)(() => ({
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
