@@ -1,5 +1,4 @@
 import { Box, Grid, Typography } from '@mui/material'
-import BackgroundImage from "@media/images/stats-bg.svg";
 import Oval from "@media/images/stats-ovals.svg"
 import { ReactComponent as StartImage1 } from "@media/images/pets.svg";
 import { ReactComponent as StartImage2 } from "@media/images/pets2.svg";
