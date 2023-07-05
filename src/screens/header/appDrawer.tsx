@@ -3,7 +3,7 @@ import { ListItemButton } from '@mui/material';
 import { ListItem } from '@mui/material';
 import { Drawer } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import { useCallback, useEffect, useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 
 type Props = {
