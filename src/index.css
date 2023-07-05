@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mainPrimary: '#7C58D3';
+  --lightPrimary: '#B6A0E2';
+  --darkPrimary: '#44258d';
+  --mainYellow: '#FFDA47';
+  --lightYellow: '#ffe580';
+  --darkYellow: '#e6b700'
+}
